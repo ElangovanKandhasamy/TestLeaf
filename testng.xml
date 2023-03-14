@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IntelliiJ/Code/TestLeaf/src/main/java/LoginPage/OpenAmazon.java">
+        <classes>
+            <class name="LoginPage.OpenAmazon">
+                <methods>
+                    <include name="openAmazon"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="D:/IntelliiJ/Code/TestLeaf/src/main/java/LoginPage/OpenGoogle.java">
+        <classes>
+            <class name="LoginPage.OpenGoogle">
+                <methods>
+                    <include name="openGoogle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
